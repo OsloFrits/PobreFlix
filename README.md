@@ -8,6 +8,6 @@
 - [x] Conversão das colunas
 - [x] ... (os 11 itens do enunciado, marcados)
 ## Funcionalidade extra
-Coluna de assistidos
+Coluna de status: aguardando, assistindo, concluido e null 
 ## Como rodar
 Comandos para rodar o app no computador.
