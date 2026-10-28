@@ -1,6 +1,6 @@
 # 🎬 PobreFlix
 
-**Membros:** Ana Clara Duarte, Eduardo H. Cardoso, ADD seu nome PF
+**Membros:** Ana Clara Duarte, Eduardo H. Cardoso, Paulo Rafael
 
 **Dataset:** filmes-series-netflix.csv — [Netflix Movies and TV Shows (Kaggle)](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
