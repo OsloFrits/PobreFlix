@@ -1,31 +1,36 @@
-# PobreFlix
+# 🎬 PobreFlix
 
-Membros: Ana Clara Duarte, Eduardo H. Cardoso, Paulo Rafael Dataset: datasets/filmes-series-netflix.csv + link da fonte original App publicado: https://...streamlit.app
+**Membros:** Ana Clara Duarte, Eduardo H. Cardoso, ADD seu nome PF
 
-Dashboard desenvolvido em Python e Streamlit
-para explorar dados de filmes e séries da Netflix.
+**Dataset:** filmes-series-netflix.csv — [Netflix Movies and TV Shows (Kaggle)](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
+**App publicado:** https://...streamlit.app
+
+Dashboard em Python e Streamlit para explorar filmes e séries da Netflix.
 
 ## Funcionalidades
 
-- Visualização dos títulos cadastrados no dataset.
-- Separação entre filmes e séries.
-- Filtros para explorar o catálogo.
-- Exibição de informações como ano, duração,
-  classificação indicativa, país e gênero.
-- Estatísticas sobre os títulos.
+- [x] Leitura do CSV
+- [x] Conversão das colunas (tipo, duração, ano, data e gêneros)
+- [x] Métricas: total de títulos, filmes/séries, duração média e filme mais longo
+- [x] Classificação em faixas de duração
+- [x] Tabela com nomes de coluna legíveis
+- [x] Busca por título (sem diferenciar maiúsculas)
+- [x] Filtro por gênero e tipo, com opção "Todos"
+- [x] Busca e filtros funcionando juntos
+- [x] Mensagem quando nenhum título é encontrado
+- [x] Código organizado em funções e módulos
+- [ ] App publicado no Streamlit Community Cloud
 
-## Tecnologias utilizadas
+## Funcionalidade extra
 
-- Python
-- Streamlit
-- CSV
+**Minha lista:** na barra lateral, marque um título como *Planejo assistir*, *Assistindo* ou *Assistido*. O status aparece na tabela e a barra lateral conta quantos títulos há em cada um. Feita no módulo `status.py`, com a lista guardada no `st.session_state`.
 
-## Como executar
+**Sortear:** sorteia um título entre os resultados da busca e dos filtros.
 
-Instale as dependências:
+## Como rodar
 
+```
 pip install -r requirements.txt
-
-Execute o dashboard:
-
 streamlit run app.py
+```
