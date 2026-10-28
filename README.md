@@ -1,6 +1,6 @@
 # PobreFlix
 
-Membros: Ana Clara Duarte, Eduardo H. Cardoso Dataset: datasets/filmes-series-netflix.csv + link da fonte original App publicado: https://...streamlit.app
+Membros: Ana Clara Duarte, Eduardo H. Cardoso, Paulo Rafael Dataset: datasets/filmes-series-netflix.csv + link da fonte original App publicado: https://...streamlit.app
 
 Dashboard desenvolvido em Python e Streamlit
 para explorar dados de filmes e séries da Netflix.
