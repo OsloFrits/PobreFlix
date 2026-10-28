@@ -20,8 +20,8 @@ Dashboard em Python e Streamlit para explorar filmes e séries da Netflix.
 - [x] Busca e filtros funcionando juntos
 - [x] Mensagem quando nenhum título é encontrado
 - [x] Código organizado em funções e módulos
-- [ ] App publicado no Streamlit Community Cloud
-
+- [x] App publicado no Streamlit Community Cloud
+- https://trabalhom2.streamlit.app/
 ## Funcionalidade extra
 
 **Minha lista:** na barra lateral, marque um título como *Planejo assistir*, *Assistindo* ou *Assistido*. O status aparece na tabela e a barra lateral conta quantos títulos há em cada um. Feita no módulo `status.py`, com a lista guardada no `st.session_state`.
